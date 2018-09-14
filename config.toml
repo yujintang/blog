@@ -1,4 +1,28 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
-theme="charaka"
+baseurl = "https://example.com"
+languageCode = "en"
+title = "Charaka"
+theme = "charaka-hugo-theme"
+copyright = "&copy; <a href=\"https://github.com/natarajmb\">Nataraj Basappa</a> 2018"
+disqusShortname = ""
+googleAnalytics = ""
+
+[params]
+
+[params.highlight]
+  style = "zenburn"
+
+[[params.social]]
+  url = "about.html"
+  fa _icon = "fas fa-info" 
+
+[[params.social]]
+  url = "https://github.com/natarajmb"
+  fa_icon = "fab fa-github"
+
+[[params.social]]
+  url = "https://www.linkedin.com/in/natarajmb/"
+  fa_icon = "fab fa-linkedin-in"
+
+[[params.social]]
+  url = "https://twitter.com/natarajmb"
+  fa_icon = "fab fa-twitter"
