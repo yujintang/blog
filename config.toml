@@ -2,3 +2,8 @@ baseURL = "https://blog.7diary.com/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "ananke"
+
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+buildDrafts = false
