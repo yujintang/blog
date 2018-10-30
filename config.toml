@@ -1,6 +1,7 @@
 baseURL = "https://blog.7diary.com/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+languageCode = "en"
+defaultContentLanguage = "en"
+title = "技术杂谈"
 theme = "ananke"
 
 contentDir = "content"
@@ -9,3 +10,7 @@ publishDir = "public"
 statusDir = "static"
 dataDir = 'data'
 buildDrafts = false
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
