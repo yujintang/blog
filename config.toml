@@ -2,7 +2,7 @@ contentDir = "content"
 layoutDir = "layouts"
 publishDir = "public"
 buildDrafts = false
-baseURL = "https://yoursite.example.com/"
+baseURL = "https://blog.7diary.com/"
 canonifyURLs = true
 title = "My Hugo Site"
 [taxonomies]
@@ -11,5 +11,5 @@ title = "My Hugo Site"
 [params]
   subtitle = "Hugo is Absurdly Fast!"
   author = "John Doe"
-  
+
 theme = "ananke"
