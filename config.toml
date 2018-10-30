@@ -24,7 +24,7 @@ buildDrafts = false
   name = "Archives"
   weight = 20
   identifier = "archives"
-  url = "/post/"
+  url = "/posts/"
 
 [params]
   moreMeta = true
