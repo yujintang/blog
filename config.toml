@@ -6,4 +6,5 @@ theme = "ananke"
 contentDir = "content"
 layoutDir = "layouts"
 publishDir = "public"
+statusDir = "static"
 buildDrafts = false
