@@ -1,7 +1,15 @@
-baseurl = "https://example.com"
-languageCode = "en"
-title = "Charaka"
-theme = "charaka-hugo-theme"
-copyright = "&copy; <a href=\"https://github.com/natarajmb\">Nataraj Basappa</a> 2018"
-disqusShortname = ""
-googleAnalytics = ""
+contentDir = "content"
+layoutDir = "layouts"
+publishDir = "public"
+buildDrafts = false
+baseURL = "https://yoursite.example.com/"
+canonifyURLs = true
+title = "My Hugo Site"
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+[params]
+  subtitle = "Hugo is Absurdly Fast!"
+  author = "John Doe"
+  
+theme = "ananke"
